@@ -13,5 +13,7 @@ export const ButtonContainer = styled.button`
     &:hover {
         opacity: 0.6;
         cursor:pointer;
+
+        background-color: ${(props) => (props.disabled ? "#ccc" : "#81259D")};
     }
 `
